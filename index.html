@@ -1,0 +1,239 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Applications of Linguistic Theory in Large Language Models</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="top-nav" aria-label="Page sections">
+        <a href="#morphology">Morphology</a>
+        <a href="#syntax">Syntax</a>
+        <a href="#semantics">Semantics</a>
+        <a href="#pragmatics">Pragmatics</a>
+        <a href="#references">References</a>
+      </nav>
+
+      <div class="hero">
+        <p class="eyebrow">Linguistics and artificial intelligence</p>
+        <h1>Applications of Linguistic Theory in Large Language Models</h1>
+        <p class="subtitle">
+          How morphology, syntax, semantics, and pragmatics shape modern AI language systems.
+        </p>
+      </div>
+    </header>
+
+    <main>
+      <section class="intro section-band">
+        <div class="content-grid">
+          <div>
+            <h2>Introduction</h2>
+            <p>
+              Large Language Models (LLMs), love them or hate them, have become a popular part of
+              modern technology, powering applications such as ChatGPT, language translation systems
+              and automated text generation tools. These tools were designed to process and generate
+              human language, making the study of linguistics highly relevant to their development
+              and performance.
+            </p>
+            <p>
+              Linguistics helps us understand how language is structured and how people communicate
+              in different contexts. In particular, the linguistic subsystems of morphology, syntax,
+              semantics, and pragmatics each contribute to the way LLMs interpret and generate
+              language. This work aims to examine the role of these four linguistic subsystems in
+              Large Language Models and explores how they contribute to both the strengths and
+              limitations of modern artificial intelligence language systems.
+            </p>
+          </div>
+
+          <aside class="concept-map" aria-label="Four linguistic subsystems">
+            <span>Morphology</span>
+            <span>Syntax</span>
+            <span>Semantics</span>
+            <span>Pragmatics</span>
+          </aside>
+        </div>
+      </section>
+
+      <section id="morphology" class="section-band">
+        <div class="content-grid">
+          <article>
+            <p class="section-number">01</p>
+            <h2>Morphology and LLMs</h2>
+            <p>
+              Linguistic morphology is the study of morphemes, the smallest units of words, including
+              a word's root, prefixes and suffixes. Morphemes are important to LLMs to help the
+              system recognise the relationships between words and how they are formed.
+            </p>
+            <p>
+              For example, the words <strong>play</strong>, <strong>playing</strong> and
+              <strong>player</strong> all have the same root "play" and are then known to have
+              related meanings. LLMs use a method called tokenisation, where words are broken into
+              smaller pieces before being processed. This allows models to handle unfamiliar words
+              and recognise common patterns across large amounts of text.
+            </p>
+          </article>
+
+          <figure class="media-card">
+            <img src="assets/tokenisation-example.png" alt="Coloured tokenisation example showing text broken into token chunks.">
+            <figcaption>
+              Tokenisation breaks text into smaller processable units, which is one way LLMs handle
+              word parts and repeated patterns.
+            </figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section id="syntax" class="section-band alternate">
+        <div class="content-grid reverse">
+          <article>
+            <p class="section-number">02</p>
+            <h2>Syntax and LLMs</h2>
+            <p>
+              Syntax is the set of rules that define the structure for well-formed sentences. In Large
+              Language Models, syntax is used to assure generated text follows the grammatical
+              conventions that are understood by human readers.
+            </p>
+            <p>
+              In the sentences "The dog chased the cat" and "The cat chased the dog" the same words
+              are used yet our understanding of syntax allows us to see the difference in meaning.
+              LLMs learn syntax through large amounts of training data allowing them to replicate it
+              well.
+            </p>
+            <p>
+              However, syntactic understanding is not always perfect with these models. Some models
+              may struggle with highly complex sentence structures and sometimes produce sentences
+              that are grammatically correct but make no sense logically. The following sentence was
+              generated as an example of this, "The report was completed before it had already begun."
+              While you could argue its validity in certain circumstances this work has not yet begun
+              to discuss semantics.
+            </p>
+          </article>
+
+          <figure class="media-card compact">
+            <img src="assets/syntax-tree.png" alt="Syntax tree showing sentence, noun phrase, verb phrase, and word-level branches.">
+            <figcaption>
+              A syntax tree shows how sentence parts relate to each other, not just which words appear.
+            </figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section id="semantics" class="section-band">
+        <div class="content-grid">
+          <article>
+            <p class="section-number">03</p>
+            <h2>Semantics and LLMs</h2>
+            <p>
+              Semantics is the study of meaning in language. It examines how words, phrases and
+              sentences convey information and how meaning can change depending on context. In Large
+              Language Models, semantics is important because it allows systems to interpret user
+              inputs and generate relevant responses.
+            </p>
+            <p>
+              For example, the word <strong>bank</strong> can refer to a financial institution or the
+              side of a river, and an LLM must use surrounding context to determine the intended
+              meaning. By analysing patterns within large datasets, LLMs can learn semantic
+              relationships between words and concepts. This enables tasks such as question answering,
+              summarisation and language translation.
+            </p>
+            <p>
+              However, semantic understanding remains a challenge. LLMs may generate information that
+              appears meaningful but is factually incorrect, a phenomenon commonly known as
+              hallucination. Consequently, semantics contributes significantly to both the capabilities
+              and limitations of modern language models.
+            </p>
+          </article>
+
+          <figure class="diagram-card" aria-label="Diagram showing the two meanings of the word bank">
+            <div class="ambiguity-diagram">
+              <span class="word-node">bank</span>
+              <span class="meaning-node">financial institution</span>
+              <span class="meaning-node">side of a river</span>
+            </div>
+            <figcaption>
+              Semantic interpretation depends on context: the same word can point to different ideas.
+            </figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section id="pragmatics" class="section-band alternate">
+        <div class="content-grid reverse">
+          <article>
+            <p class="section-number">04</p>
+            <h2>Pragmatics and LLMs</h2>
+            <p>
+              Pragmatics is the study of how language is used in different social and conversational
+              contexts. While semantics focuses on the literal meaning of the words, pragmatics
+              focuses on the speaker's intentions and contextual factors. In Large Language Models,
+              pragmatics helps systems generate responses that are appropriate to a conversation and
+              adapt to different situations.
+            </p>
+            <p>
+              For example, the question "Can you open the window?" is often intended as a request
+              rather than a literal inquiry about someone's ability. LLMs can use conversational
+              context to produce relevant and polite responses, making interactions feel more natural.
+            </p>
+            <p>
+              However, pragmatic understanding remains a significant challenge. Models may struggle
+              with sarcasm, humour, irony and cultural references because these often rely on knowledge
+              that extends beyond the literal meaning of language. As a result, pragmatics highlights
+              some of the most important limitations of modern language models.
+            </p>
+          </article>
+
+          <figure class="dialogue-card" aria-label="Conversation diagram about pragmatic meaning">
+            <div class="chat-bubble question">Can you open the window?</div>
+            <div class="chat-bubble answer">Interpreted as a polite request.</div>
+            <figcaption>
+              Pragmatics connects words with intention, social context, and conversational expectations.
+            </figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="section-band conclusion">
+        <div class="narrow">
+          <h2>Conclusion</h2>
+          <p>
+            Large Language Models demonstrate how principles from linguistics can be applied to modern
+            artificial intelligence systems. Morphology helps models recognise word structure, syntax
+            supports the generation of grammatical sentences, semantics enables the interpretation of
+            meaning, and pragmatics assists with understanding conversational context.
+          </p>
+          <p>
+            Together, these linguistic subsystems contribute significantly to the effectiveness of LLMs.
+            However, challenges such as hallucinations, ambiguity and difficulties with implied meaning
+            show that human language remains complex. As AI technology continues to develop, linguistic
+            theory will remain an important foundation for improving language models.
+          </p>
+        </div>
+      </section>
+
+      <section id="references" class="references section-band">
+        <div class="narrow">
+          <h2>References and Image Credits</h2>
+          <ul>
+            <li><a href="https://www.sciencedirect.com/science/chapter/edited-volume/abs/pii/B9780124077942000134">ScienceDirect: linguistics chapter</a></li>
+            <li><a href="https://towardsdatascience.com/the-art-of-tokenization-breaking-down-text-for-ai-43c7bccaed25/">Towards Data Science: The Art of Tokenization</a></li>
+            <li><a href="https://www.merriam-webster.com/dictionary/syntax">Merriam-Webster: syntax definition</a></li>
+            <li><a href="https://ellinfobcps.weebly.com/syntax.html">ELL Info BCPS: syntax</a></li>
+            <li><a href="https://thedecisionlab.com/reference-guide/linguistics/pragmatics">The Decision Lab: pragmatics</a></li>
+          </ul>
+
+          <h3>Visual Sources</h3>
+          <ul>
+            <li>Tokenisation image: supplied project image, saved as <code>assets/tokenisation-example.png</code>.</li>
+            <li>Syntax tree image: supplied project image, saved as <code>assets/syntax-tree.png</code>.</li>
+            <li><a href="https://en.wikipedia.org/wiki/Morpheme">Online candidate: Morpheme overview</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Parse_tree">Online candidate: Parse tree overview</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Semantics">Online candidate: Semantics overview</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Pragmatics">Online candidate: Pragmatics overview</a></li>
+          </ul>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
